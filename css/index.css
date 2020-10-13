@@ -2,3 +2,7 @@
 @import './classes.css';
 @import './fonts.css';
 @import './base.css';
+
+@import './components/microsoft.css';
+@import './components/form.css';
+@import './components/footer.css';

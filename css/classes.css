@@ -1,0 +1,25 @@
+.text-center {
+    text-align: center;
+}
+
+.box {
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.relative {
+    position: relative;
+}
+
+.align__center {
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text__center {
+    text-align: center;
+}
