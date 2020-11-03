@@ -1,0 +1,10 @@
+.header {
+    align-items: center;
+    background: #EEEFF1;
+    height: 100px;
+    display: flex;
+}
+
+.header__logo {
+
+}

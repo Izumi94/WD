@@ -23,3 +23,9 @@
 .text__center {
     text-align: center;
 }
+
+.container {
+    width: 1510px;
+    margin: auto;
+    display: flex;
+}
