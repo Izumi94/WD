@@ -1,7 +1,13 @@
 .header {
     align-items: center;
     background: #eeeff1;
-    height: 100px;
+    min-height: 100px;
+    display: flex;
+}
+
+.header__container {
+    width: 1510px;
+    margin: auto;
     display: flex;
 }
 

@@ -1,5 +1,13 @@
 .hero {
     background: #eeeff1;
-    height: 700px;
+    min-height: 700px;
     display: flex;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.hero__image {
+
 }
