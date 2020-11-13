@@ -1,13 +1,54 @@
 .hero {
     background: #eeeff1;
-    min-height: 700px;
+    min-height: 550px;
     display: flex;
 }
 
 .col-6 {
     width: 50%;
+    margin: 0 auto;
 }
 
 .hero__image {
+    max-width: 357px;
+    margin-top: -70px;
+    margin-left: 60px;
+}
 
+.hero__items {
+    margin-right: 175px;
+    margin-left: -110px;
+}
+
+.hero__title {
+    margin-top: 75px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 79px;
+    color: #000000;
+}
+
+.hero__description {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 60px;
+}
+
+.hero__btn {
+    background: #34547a;
+    display: inline-block;
+    padding: 25px 40px 25px 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #fff;
+    text-decoration: none;
 }

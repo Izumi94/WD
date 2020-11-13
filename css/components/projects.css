@@ -1,0 +1,40 @@
+.projects {
+    min-height: 250px;
+    background: #34547a;
+}
+
+.projects__row {
+    margin-top: 85px;
+    display: flex;
+}
+
+.projects__item {
+    margin-right: 50px;
+    display: flex;
+}
+
+.projects__image {
+    margin-right: 20px;
+  }
+
+.projects__number {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #ffffff;
+}
+
+.projects__name {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+  
+  

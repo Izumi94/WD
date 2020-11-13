@@ -5,24 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WD</title>
     <link rel="stylesheet" href="./css/index.css">
+    <meta property="og:title" content="WD" />
+    <meta
+      property="og:description"
+      content="Дизайн и верстка"
+    />
+    <meta property="og:image" content="./images/hero-bg.png" />
+    <link rel="icon" href="./images/hero-bg.png" sizes="16x16" />
+    <link rel="icon" href="./images/hero-bg.png" sizes="32x32" />
 </head>
 
 <body>
 
     <header class="header">
         <div class="header__container">
-            <div class="header__logo">
-                <a class="header__logo"><img src="./images/WD.svg"></a>
+            <div class="header__row">
+                <div class="header__logo">
+                    <a class="header__logo"><img src="./images/WD.svg"></a>
+                </div>
+                <nav class="header__nav flex">
+                    <ul class="nav__menu flex">
+                        <li class="nav__item"><a href="nav__main" class="nav__link">Главная</a></li>
+                        <li class="nav__item"><a href="nav__about" class="nav__link">Об авторе</a></li>
+                        <li class="nav__item"><a href="nav__works" class="nav__link">Работы</a></li>
+                        <li class="nav__item"><a href="nav__process" class="nav__link">Процесс</a></li>
+                        <li class="nav__item"><a href="nav__contacts" class="nav__link">Контакты</a></li>
+                    </ul>
+                </nav>
             </div>
-            <nav class="header__nav flex">
-                <ul class="nav__menu flex">
-                    <li class="nav__item"><a href="nav__main" class="nav__link">Главная</a></li>
-                    <li class="nav__item"><a href="nav__about" class="nav__link">Об авторе</a></li>
-                    <li class="nav__item"><a href="nav__works" class="nav__link">Работы</a></li>
-                    <li class="nav__item"><a href="nav__process" class="nav__link">Процесс</a></li>
-                    <li class="nav__item"><a href="nav__contacts" class="nav__link">Контакты</a></li>
-                </ul>
-            </nav>
+
         </div>
     </header>
 
@@ -35,8 +46,11 @@
             </div>
         </div>
         <div class="col-6">
-            <div class="hero__image">
-                <img class="hero__img" src="./images/notebook.png">
+            <div class="hero__items">
+                <h1 class="hero__title">Дизайн и верстка</h1>
+                <p class="hero__description">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
+                    Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+                <a class="hero__btn">НАПИСАТЬ МНЕ</a>
             </div>
         </div>
         </div>
@@ -44,14 +58,78 @@
 
     <section class="about">
         <div class="container">
-            <div class="about__title">
-                <h2 class="title__text">Обо мне</h2>
+            <div class="about__items">
+                <div class="about__title">
+                    <h3 class="title__text">Обо мне</h3>
+                </div>
+                <div class="about__description">
+                    <p class="description__text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+                        вэб-дизайне.
+                        Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+                </div>
             </div>
-            <div class="about__description">
-                <p class="description__text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
-                    Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
-            </div>
+        </div>
+    </section>
 
+    <section class="projects">
+        <div class="container">
+            <div class="projects__row">
+                 <div class="col-2">
+                <div class="projects__item">
+                  <img class="projects__image" src="./images/project.svg" alt="" />
+                  <div>
+                    <h3 class="projects__number">40+</h3>
+                    <span class="projects__name">проектов</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2">
+                <div class="projects__item">
+                  <img class="projects__image" src="./images/project.svg" alt="" />
+                  <div>
+                    <h3 class="projects__number">40+</h3>
+                    <span class="projects__name">проектов</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2">
+                <div class="projects__item">
+                  <img class="projects__image" src="./images/project.svg" alt="" />
+                  <div>
+                    <h3 class="projects__number">40+</h3>
+                    <span class="projects__name">проектов</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2">
+                <div class="projects__item">
+                  <img class="projects__image" src="./images/project.svg" alt="" />
+                  <div>
+                    <h3 class="projects__number">40+</h3>
+                    <span class="projects__name">проектов</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2">
+                <div class="projects__item">
+                  <img class="projects__image" src="./images/project.svg" alt="" />
+                  <div>
+                    <h3 class="projects__number">40+</h3>
+                    <span class="projects__name">проектов</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2">
+                <div class="projects__item">
+                  <img class="projects__image" src="./images/project.svg" alt="" />
+                  <div>
+                    <h3 class="projects__number">40+</h3>
+                    <span class="projects__name">проектов</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+           
         </div>
     </section>
 
