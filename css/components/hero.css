@@ -4,11 +4,6 @@
     display: flex;
 }
 
-.col-6 {
-    width: 50%;
-    margin: 0 auto;
-}
-
 .hero__image {
     max-width: 357px;
     margin-top: -70px;

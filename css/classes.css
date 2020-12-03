@@ -29,3 +29,8 @@
     margin: auto;
     display: flex;
 }
+
+.col-6 {
+    width: 50%;
+    margin: 0 auto;
+}

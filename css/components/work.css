@@ -1,0 +1,32 @@
+.work {
+    background: #eeeff1;
+}
+
+.work__title {
+    margin-top: 100px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    color: #000000;
+}
+
+.work__description {
+    position: relative;
+    width: 540px;
+    height: auto;
+    left: 25%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    margin-bottom: 50px;
+}
+
+.work__img {
+    margin-bottom: 100px;
+}
