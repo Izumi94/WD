@@ -2,6 +2,10 @@
     min-height: 650px;
 }
 
+.skills__row {
+    display: flex;
+}
+
 .skills__image {
     width: 555px;
     height: 450px;
