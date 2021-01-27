@@ -7,6 +7,18 @@
 }
 
 .skills__image {
+    margin-left: 140px;
+    margin-top: 100px;
     width: 555px;
     height: 450px;
+}
+
+.skills__title {
+    margin-top: 200px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
 }

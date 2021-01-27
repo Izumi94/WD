@@ -1,9 +1,15 @@
 .work {
+    min-height: 1005px;
     background: #eeeff1;
+}
+
+.work__items {
+    text-align: center;
 }
 
 .work__title {
     margin-top: 100px;
+    margin-left: 100px;
     text-align: center;
     font-style: normal;
     font-weight: 500;
@@ -14,7 +20,8 @@
 }
 
 .work__description {
-    position: relative;
+    margin-bottom: 50px;
+    margin-left: 100px;
     width: 540px;
     height: auto;
     left: 25%;
@@ -24,9 +31,15 @@
     line-height: 26px;
     text-align: center;
     color: #727272;
-    margin-bottom: 50px;
+    
 }
 
 .work__img {
-    margin-bottom: 100px;
+    position: absolute;
+}
+
+.work__play__img {
+    position: relative;
+    left: 50%;
+    padding-top: 100px;
 }
