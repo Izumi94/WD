@@ -14,3 +14,12 @@ a {
     text-decoration: none;
     color: var(--white);
 }
+
+@media screen and (max-width:1024px) {
+    .col-2 {
+      width: 26%;
+    }
+    .projects__item {
+      margin-bottom: 40px;
+    }
+}

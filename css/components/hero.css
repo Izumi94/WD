@@ -1,6 +1,6 @@
 .hero {
     background: #eeeff1;
-    min-height: 550px;
+    min-height: 100vh;
     display: flex;
 }
 
